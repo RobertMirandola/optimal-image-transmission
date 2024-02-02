@@ -3,7 +3,7 @@ from general_lloyd_algorithm import general_lloyds_algorithm
 import matplotlib.pyplot as plt
 
 def simulate_bsc(original_bins, centroids, epsilon):
-  num_centroids = len(centroids)
+  num_centroids = len(centroids) 
 
   # Calculate the number of bits needed to represent the centroids
   num_bits = int(np.ceil(np.log2(num_centroids)))
